@@ -1,0 +1,20 @@
+<section class="card checkins">
+  <form name="myform"
+    ng-submit="siteController.addSite()"
+    novalidate>
+
+    <div class="textintro">
+      <h1>Site</h1>
+      <p>Create new site or go <a ui-sref="sites">back to sites</a></p>
+      <p class="error formerror" ng-show="message">{{ message }}</p>
+    </div>
+
+    <div ng-include="'sites/_siteform.html'"></div>
+
+    <button type="submit" class="btn" ng-disabled="myform.$invalid">Save</button>
+
+    <a class="btn btn-delete" ui-sref="sites"><span>Cancel</span></a>
+
+  </form>
+
+</section>

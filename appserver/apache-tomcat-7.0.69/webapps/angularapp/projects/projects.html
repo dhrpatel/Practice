@@ -1,0 +1,30 @@
+<div class="card meetings cf">
+
+    <h2>Your Projects</h2>
+        <table class="projects">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Lead First Name</th>
+                    <th>Lead Last Name</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                
+                <tr ng-repeat="project in projectController.projects">
+                    
+                    <td>{{project.name}}</td>
+                    <td>{{project.leadFirstName}}</td>
+                    <td>{{project.leadLastName}}</td>
+                    <td><a ui-sref="editProject({pId:project.id})" class="btn">Edit</a></td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    <a type="submit" class="btn" ui-sref="newProject">Add New Project</a>
+
+</div>

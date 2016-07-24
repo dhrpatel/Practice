@@ -1,0 +1,20 @@
+<section class="card checkins">
+  <form name="myform"
+    ng-submit="projectController.addProject()"
+    novalidate>
+
+    <div class="textintro">
+      <h1>Project</h1>
+      <p>Create new project or go <a ui-sref="projects">back to projects</a></p>
+      <p class="error formerror" ng-show="message">{{ message }}</p>
+    </div>
+
+    <div ng-include="'projects/_projectform.html'"></div>
+
+    <button type="submit" class="btn" ng-disabled="myform.$invalid">Save</button>
+
+    <a class="btn btn-delete" ui-sref="projects"><span>Cancel</span></a>
+
+  </form>
+
+</section>

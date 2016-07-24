@@ -1,0 +1,32 @@
+<fieldset>
+  <input type="text" name="name" placeholder="Project Name"
+  ng-model="siteController.site.name" ng-required="true">
+  <p class="error validationerror"
+  ng-show="myform.name.$invalid && myform.name.$touched">
+  Site name required</p>
+
+  <input type="text" name="address" placeholder="Address"
+  ng-model="siteController.site.address" ng-required="true">
+  <p class="error validationerror"
+  ng-show="myform.address.$invalid && myform.address.$touched">
+  Address required</p>
+
+  <input type="text" name="city" placeholder="City"
+  ng-model="siteController.site.city" ng-required="true">
+  <p class="error validationerror"
+  ng-show="myform.city.$invalid && myform.city.$touched">
+  City required</p>
+
+  <input type="text" name="state" placeholder="State"
+  ng-model="siteController.site.state" ng-required="true">
+  <p class="error validationerror"
+  ng-show="myform.state.$invalid && myform.state.$touched">
+  State required</p>
+
+  <input type="text" name="zipcode" placeholder="Zipcode"
+  ng-model="siteController.site.zipcode" ng-required="true">
+  <p class="error validationerror"
+  ng-show="myform.zipcode.$invalid && myform.zipcode.$touched">
+  Zipcode required</p>
+
+</fieldset>

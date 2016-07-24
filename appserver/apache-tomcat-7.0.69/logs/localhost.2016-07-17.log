@@ -1,0 +1,20 @@
+Jul 17, 2016 3:40:05 AM org.apache.catalina.core.ApplicationContext log
+INFO: Spring WebApplicationInitializers detected on classpath: [com.deloitte.g300training.configuration.G300TrainingWebApplicationInitializer@29fe65c8]
+Jul 17, 2016 3:40:05 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Jul 17, 2016 3:40:06 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+Jul 17, 2016 3:40:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jul 17, 2016 3:40:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jul 17, 2016 3:40:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1d19e70d')
+Jul 17, 2016 4:16:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+Jul 17, 2016 4:16:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Jul 17, 2016 4:16:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Jul 17, 2016 4:16:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
