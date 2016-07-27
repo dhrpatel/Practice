@@ -29,12 +29,6 @@ Ext.define('ExtJSTrainingTwo.view.Main', {
 				},
 				{
 					xtype: 'projectDetails'
-				},
-				{
-					xtype: 'site'
-				},
-				{
-					xtype: 'siteDetails'
 				}
 			]
 		}

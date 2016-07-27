@@ -32,14 +32,6 @@ Ext.define('ExtJSTrainingTwo.Application', {
 			console.log(projectStore.getCount()); // should be > 0
 		}, this); 
 		
-		var siteStore = Ext.create('ExtJSTrainingTwo.store.Sites');
-		siteStore.load(function(records, operation, success) {
-			console.log(siteStore); // should return the store-component
-			console.log(records); // should return an array of at least 1 item
-			console.log(siteStore.isLoaded()); // should be true
-			console.log(siteStore.getCount()); // should be > 0
-		}, this);
-		
 		Ext.create('Ext.container.Viewport', {
 			viewModel: {},
 			
