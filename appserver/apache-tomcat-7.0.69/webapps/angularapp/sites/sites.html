@@ -1,34 +1,6 @@
 <div class="card meetings cf">
 
-    <h2>Your Sites</h2>
-        <table class="projects">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Address</th>
-                    <th>City</th>
-                    <th>State</th>
-                    <th>Zipcode</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                
-                <tr ng-repeat="site in siteController.sites">
-                    
-                    <td>{{site.name}}</td>
-                    <td>{{site.address}}</td>
-                    <td>{{site.city}}</td>
-                    <td>{{site.state}}</td>
-                    <td>{{site.zipcode}}</td>
-                    <td><a ui-sref="editSite({sId:site.id})" class="btn">Edit</a></td>
-
-                </tr>
-
-            </tbody>
-
-        </table>
-
-    <a type="submit" class="btn" ui-sref="newSite">Add New Site</a>
+  <!-- ADD CODE FOR THE SITES LIST HERE -->
+  <!-- FIELDS SHOUD INCLUDE NAME, ADDRESS, CITY, STATE, AND ZIPCODE -->
 
 </div>

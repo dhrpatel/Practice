@@ -22,8 +22,8 @@ Ext.define('ExtJSTrainingTwo.Application', {
     
     launch: function () {
         // TODO - Launch the application
-		
-		//Load stores manually
+        
+        //Load stores manually
 		var projectStore = Ext.create('ExtJSTrainingTwo.store.Projects');
 		projectStore.load(function(records, operation, success) {
 			console.log(projectStore); // should return the store-component

@@ -71,3 +71,45 @@ INSERT INTO project
 VALUES 
 	(6, null, null, null, null, 0,
 	'Andrew', 'Felix', 'Charity: Water');
+
+INSERT INTO site
+	(id, created_by, created_date, modified_by, modified_date, version,
+	name, address, city, state, zipcode)
+VALUES
+	(1, null, null, null, null, 0,
+	'Site 1', '123 ABC Lane', 'Annapolis Junction', 'MD', '12345');
+	
+INSERT INTO site
+	(id, created_by, created_date, modified_by, modified_date, version,
+	name, address, city, state, zipcode)
+VALUES
+	(2, null, null, null, null, 0,
+	'Site 2', '234 DEF Road', 'Jessup', 'MD', '23456');
+	
+INSERT INTO site
+	(id, created_by, created_date, modified_by, modified_date, version,
+	name, address, city, state, zipcode)
+VALUES
+	(3, null, null, null, null, 0,
+	'Site 3', '345 GHI Blvd', 'Laurel', 'MD', '34567');
+	
+INSERT INTO site
+	(id, created_by, created_date, modified_by, modified_date, version,
+	name, address, city, state, zipcode)
+VALUES
+	(4, null, null, null, null, 0,
+	'Site 4', '456 JKL Road', 'Annapolis Junction', 'MD', '45678');
+	
+INSERT INTO site
+	(id, created_by, created_date, modified_by, modified_date, version,
+	name, address, city, state, zipcode)
+VALUES
+	(5, null, null, null, null, 0,
+	'Site 5', '567 MNO Blvd', 'Jessup', 'MD', '56789');
+	
+INSERT INTO site
+	(id, created_by, created_date, modified_by, modified_date, version,
+	name, address, city, state, zipcode)
+VALUES
+	(6, null, null, null, null, 0,
+	'Site 6', '678 PQR Lane', 'Laurel', 'MD', '67890');

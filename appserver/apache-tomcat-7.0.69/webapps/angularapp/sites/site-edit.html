@@ -1,20 +1,6 @@
 <section class="card checkins">
-  <form name="myform"
-    ng-submit="siteController.updateSite()"
-    novalidate>
 
-    <div class="textintro">
-      <h1>Site</h1>
-      <p>Edit site or go <a ui-sref="sites">back to sites</a></p>
-      <p class="error formerror" ng-show="message">{{ message }}</p>
-    </div>
-
-    <div ng-include="'sites/_siteform.html'"></div>
-
-    <button type="submit" class="btn" ng-disabled="myform.$invalid">Save</button>
-
-    <button type="button" class="btn btn-delete" ng-click="siteController.deleteSite()"><span>Delete</span></button>
-
-  </form>
+  <!-- CREATE A FORM TO EDIT A SITE HERE -->
+  <!-- FORM SHOULD INCLUDE THE PARTIAL _siteform.html -->
 
 </section>

@@ -19,8 +19,7 @@ Ext.define('ExtJSTrainingTwo.store.Projects', {
 	proxy: {
 		type: 'rest',
         //actionMethods: {create: 'POST', read: 'GET', update: 'post', destroy: 'DELETE'},
-		//url: 'https://g300training-dhrpatel.c9users.io/g300training/api/Project/',
-		url: 'https://g300training-dhrpatel.c9users.io/g300training/api/Project/',
+		url: 'https://' + document.domain + '/g300training/api/Project/',
 		
 		// rootProperty specifies where will the response object be read from when REST call returns
 		// On the service side, we are wrapping object in WebResponse object that has responseData 

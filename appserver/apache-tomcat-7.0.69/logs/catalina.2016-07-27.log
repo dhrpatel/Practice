@@ -1,0 +1,280 @@
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.69
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 11 2016 07:57:09 UTC
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.69.0
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.2.0-c9
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_101-b00
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/conf/logging.properties
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/endorsed
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/ubuntu/workspace/appserver/apache-tomcat-7.0.69
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/ubuntu/workspace/appserver/apache-tomcat-7.0.69
+Jul 27, 2016 4:07:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/temp
+Jul 27, 2016 4:07:58 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: ~/.c9/local/lib:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 27, 2016 4:07:59 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jul 27, 2016 4:07:59 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jul 27, 2016 4:07:59 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1571 ms
+Jul 27, 2016 4:07:59 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 27, 2016 4:07:59 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.69
+Jul 27, 2016 4:07:59 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/g300training.war
+Jul 27, 2016 4:08:02 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jul 27, 2016 4:08:06 PM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+Jul 27, 2016 4:08:06 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.0.Final}
+Jul 27, 2016 4:08:06 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Jul 27, 2016 4:08:06 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Jul 27, 2016 4:08:06 PM org.hibernate.ejb.Ejb3Configuration configure
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+Jul 27, 2016 4:08:07 PM org.hibernate.cfg.AnnotationBinder buildIdGenerator
+WARN: HHH000392: Hibernate does not support SequenceGenerator.initialValue() unless 'hibernate.id.new_generator_mappings' set
+Jul 27, 2016 4:08:07 PM org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator instantiateExplicitConnectionProvider
+INFO: HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+Jul 27, 2016 4:08:07 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Jul 27, 2016 4:08:07 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Jul 27, 2016 4:08:07 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Jul 27, 2016 4:08:09 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/g300training.war has finished in 10,450 ms
+Jul 27, 2016 4:08:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/examples
+Jul 27, 2016 4:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/examples has finished in 738 ms
+Jul 27, 2016 4:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/ExtJSTrainingTwo
+Jul 27, 2016 4:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/ExtJSTrainingTwo has finished in 63 ms
+Jul 27, 2016 4:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/manager
+Jul 27, 2016 4:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/manager has finished in 193 ms
+Jul 27, 2016 4:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/angularapp
+Jul 27, 2016 4:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/angularapp has finished in 166 ms
+Jul 27, 2016 4:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/host-manager
+Jul 27, 2016 4:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/host-manager has finished in 52 ms
+Jul 27, 2016 4:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/docs
+Jul 27, 2016 4:08:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/docs has finished in 156 ms
+Jul 27, 2016 4:08:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/extjsuitwo
+Jul 27, 2016 4:08:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/extjsuitwo has finished in 51 ms
+Jul 27, 2016 4:08:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/ROOT
+Jul 27, 2016 4:08:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/ROOT has finished in 152 ms
+Jul 27, 2016 4:08:11 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jul 27, 2016 4:08:11 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jul 27, 2016 4:08:11 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 12212 ms
+Jul 27, 2016 6:21:12 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jul 27, 2016 6:21:12 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jul 27, 2016 6:21:12 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Jul 27, 2016 6:21:12 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 27, 2016 6:21:13 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/g300training] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 27, 2016 6:21:13 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jul 27, 2016 6:21:13 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Jul 27, 2016 6:21:13 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jul 27, 2016 6:21:13 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.69
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 11 2016 07:57:09 UTC
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.69.0
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.2.0-c9
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_101-b00
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/conf/logging.properties
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/endorsed
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/ubuntu/workspace/appserver/apache-tomcat-7.0.69
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/ubuntu/workspace/appserver/apache-tomcat-7.0.69
+Jul 27, 2016 6:48:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/temp
+Jul 27, 2016 6:48:17 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: ~/.c9/local/lib:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 27, 2016 6:48:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jul 27, 2016 6:48:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jul 27, 2016 6:48:18 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1564 ms
+Jul 27, 2016 6:48:18 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 27, 2016 6:48:18 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.69
+Jul 27, 2016 6:48:18 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/g300training.war
+Jul 27, 2016 6:48:22 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jul 27, 2016 6:48:26 PM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+Jul 27, 2016 6:48:26 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.0.Final}
+Jul 27, 2016 6:48:26 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Jul 27, 2016 6:48:26 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Jul 27, 2016 6:48:26 PM org.hibernate.ejb.Ejb3Configuration configure
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+Jul 27, 2016 6:48:27 PM org.hibernate.cfg.AnnotationBinder buildIdGenerator
+WARN: HHH000392: Hibernate does not support SequenceGenerator.initialValue() unless 'hibernate.id.new_generator_mappings' set
+Jul 27, 2016 6:48:27 PM org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator instantiateExplicitConnectionProvider
+INFO: HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+Jul 27, 2016 6:48:27 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Jul 27, 2016 6:48:27 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Jul 27, 2016 6:48:27 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Jul 27, 2016 6:48:29 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/g300training.war has finished in 11,216 ms
+Jul 27, 2016 6:48:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/examples
+Jul 27, 2016 6:48:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/examples has finished in 630 ms
+Jul 27, 2016 6:48:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/ExtJSTrainingTwo
+Jul 27, 2016 6:48:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/ExtJSTrainingTwo has finished in 166 ms
+Jul 27, 2016 6:48:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/angularapp_backup
+Jul 27, 2016 6:48:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/angularapp_backup has finished in 45 ms
+Jul 27, 2016 6:48:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/manager
+Jul 27, 2016 6:48:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/manager has finished in 158 ms
+Jul 27, 2016 6:48:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/angularapp
+Jul 27, 2016 6:48:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/angularapp has finished in 154 ms
+Jul 27, 2016 6:48:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/host-manager
+Jul 27, 2016 6:48:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/host-manager has finished in 60 ms
+Jul 27, 2016 6:48:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/docs
+Jul 27, 2016 6:48:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/docs has finished in 160 ms
+Jul 27, 2016 6:48:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/extjsuitwo
+Jul 27, 2016 6:48:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/extjsuitwo has finished in 41 ms
+Jul 27, 2016 6:48:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/ROOT
+Jul 27, 2016 6:48:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/ROOT has finished in 45 ms
+Jul 27, 2016 6:48:31 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jul 27, 2016 6:48:31 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jul 27, 2016 6:48:31 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 12957 ms
+Jul 27, 2016 6:51:21 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/angularapp_backup]
+Jul 27, 2016 6:53:12 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/examples]
+Jul 27, 2016 6:53:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/examples_backup
+Jul 27, 2016 6:53:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/ubuntu/workspace/appserver/apache-tomcat-7.0.69/webapps/examples_backup has finished in 582 ms
+Jul 27, 2016 6:55:53 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/examples_backup]
+Jul 27, 2016 7:01:44 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/ExtJSTrainingTwo]
+Jul 27, 2016 7:05:46 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jul 27, 2016 7:05:46 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jul 27, 2016 7:05:46 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Jul 27, 2016 7:05:46 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 27, 2016 7:05:46 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/g300training] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 27, 2016 7:05:46 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jul 27, 2016 7:05:46 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Jul 27, 2016 7:05:46 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jul 27, 2016 7:05:46 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
